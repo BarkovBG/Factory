@@ -1,0 +1,11 @@
+@startuml
+SmartphoneFactory -> AppleFactory
+SmartphoneFactory -> AndroidFactory
+SmartphoneFactory -> WindowsPhoneFactory
+AppleFactory -> IPhone
+AndroidFactory -> AndroidPhone
+WindowsPhoneFactory -> WindowsPhone
+Phone -> IPhone
+Phone -> AndroidPhone
+Phone -> WindowsPhone
+@enduml
